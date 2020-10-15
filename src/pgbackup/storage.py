@@ -5,4 +5,3 @@ def local(infile, outfile):
 
 def s3(client, infile, bucket, filename):
     client.upload_fileobj(infile, bucket, filename)
-    pass
