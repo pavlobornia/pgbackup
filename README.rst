@@ -43,4 +43,9 @@ If virtualenv isn't active then use:
 ::
 
   $ pipenv run make
-  
+
+
+Alternative Installation Way: Wheels
+-------------
+
+ $ pip install https://github.com/pavlobornia/pgbackup/releases/download/v0.1.0/pgbackup-0.1.0-py3-none-any.whl
